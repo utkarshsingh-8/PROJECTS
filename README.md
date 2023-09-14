@@ -7,31 +7,23 @@ Welcome to my PROJECT repository! This repository showcases various web developm
 
 I am a beginner in web development, passionate about learning and creating web applications. This portfolio demonstrates my progress and skills in using the MERN stack to build web applications. Feel free to explore the projects and provide feedback. 🌱🚀
 
-## Table of Contents 📋
 
-1. [Project 1: E-Commerce Website](./project-1)
-   - Description: An e-commerce website built with MERN stack for selling products online.
-   - Technologies: React, Node.js, Express.js, MongoDB, Redux.
-   - [Project Details](./project-1/README.md)
+## Project List 📋
 
-2. [Project 2: Blogging Platform](./project-2)
-   - Description: A simple blogging platform where users can create, edit, and delete blog posts.
-   - Technologies: React, Node.js, Express.js, MongoDB.
-   - [Project Details](./project-2/README.md)
+1. [**To-Do List Web App**](./todo-list-app/README.md)
+   - Create a basic to-do list using HTML, CSS, and JavaScript.
 
-3. [Project 3: Task Manager App](./project-3)
-   - Description: A task manager application for organizing your daily tasks.
-   - Technologies: React, Node.js, Express.js, MongoDB.
-   - [Project Details](./project-3/README.md)
+2. [**Blog Website**](./blog-website/README.md)
+   - Build a blog site with HTML, CSS, and a backend framework.
 
-4. [Project 4: Social Media Clone](./project-4)
-   - Description: A social media clone inspired by popular social platforms.
-   - Technologies: React, Node.js, Express.js, MongoDB.
-   - [Project Details](./project-4/README.md)
+3. [**E-commerce Website**](./ecommerce-website/README.md)
+   - Develop a full e-commerce site with user auth, product listings, cart, and payments.
 
-## Getting Started 🏁
+4. [**Portfolio Website**](./portfolio-website/README.md)
+   - Design a personal portfolio site to showcase your projects.
 
-To run any of these projects locally, follow the instructions provided in each project's README file. You'll need to have Node.js and MongoDB installed on your computer.
+5. [**Weather App**](./weather-app/README.md)
+   - Construct a weather app fetching data from an API.
 
 ## Feedback 📝
 
