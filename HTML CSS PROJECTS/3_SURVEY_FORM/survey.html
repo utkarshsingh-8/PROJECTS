@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SURVEY FORM</title>
+    <link rel="stylesheet" href="survey.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="inside_container">
+        <h1>Survey Form:</h1>
+        <hr />
+
+        <form action="">
+          <div class="form-container">
+            <h2>Customer Name</h2>
+            <div class="form-control">
+              <input type="text" id="first-name" name="first-name" />
+              <label for="first-name">Enter your first name</label>
+            </div>
+
+            <div class="form-control">
+              <input type="text" id="last-name" name="last-name" />
+              <label for="last-name">Enter last first name</label>
+            </div>
+
+            <h2>Address</h2>
+            <div class="form-control side1">
+              <input type="text" id="street-address" name="street-address" />
+              <label for="street-address">Street Address</label>
+            </div>
+
+            <div class="form-control side1">
+              <input type="text" id="street-address1" name="street-address1" />
+              <label for="street-address1">Street Address Line 2</label>
+            </div>
+
+            <div class="form-control">
+              <input type="text" id="city" name="city" />
+              <label for="city">City</label>
+            </div>
+
+            <div class="form-control">
+              <input type="text" id="state" name="state" />
+              <label for="state">State</label>
+            </div>
+
+            <div class="form-control">
+              <input type="number" id="zip" name="zip" maxlength="6" />
+              <label for="zip">Zip</label>
+            </div>
+
+            <div class="form-control side1">
+              <select class="form-control-input" name="country" required>
+                <option value=""></option>
+                <option value="Afghanistan">Afghanistan</option>
+                <option value="Albania">Albania</option>
+                <option value="Algeria">Algeria</option>
+                <option value="American Samoa">American Samoa</option>
+                <option value="Andorra">Andorra</option>
+                <option value="Angola">Angola</option>
+                <option value="Anguilla">Anguilla</option>
+                <option value="Antartica">Antarctica</option>
+                <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+              </select>
+              <div id="country-help" class="help-text">Select Country</div>
+            </div>
+
+            <h2>Contact</h2>
+            <div class="form-control">
+              <input type="tel" id="phone" name="phone" />
+              <label for="phone">Phone</label>
+            </div>
+
+            <div class="form-control">
+              <input type="email" id="e-mail" name="e-mail" />
+              <label for="e-mail">Email</label>
+            </div>
+
+            <div class="form control">
+              <h2 style="margin-bottom: 10px;">Personal details</h2>
+              <input type="radio" id="male" name="personal" />
+              <label for="male">Male</label>
+              <input type="radio" id="female" name="personal" />
+              <label for="female">Female</label>
+              <input type="radio" id="other" name="personal" />
+              <label for="other">Other</label>
+            </div>
+
+            <!-- RATING -->
+            <h2>Ratings</h2>
+            <div class="rating">
+              <span>Rating 1:</span>
+              <input type="radio" id="Bad" name="rating1" />
+              <label for="Bad">Bad</label>
+              <input type="radio" id="Good" name="rating1" />
+              <label for="Good">Good</label>
+              <input type="radio" id="excellent" name="rating1" />
+              <label for="excellent">Excellent</label>
+            </div>
+            </div>
+
+            <div class="button-container">
+              <button type="submit" value="submit">Submit</button>
+            </div>
+
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

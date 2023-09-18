@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: white;
+    background-color: black;
+
+}
+
+
+.inside_container {
+
+    border: 2px solid red;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 5px red, -6px -6px 5px red;
+    background-color: black;
+}
+
+h1 {
+
+    font-size: 60px;
+    text-align: center;
+
+}
+
+hr {
+    margin-top: 10px;
+    color: black;
+}
+
+.form-container {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+
+}
+
+.form-control {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+h2 {
+
+    padding-bottom: 0px;
+    padding-top: 15px;
+    grid-column: 1 / span 2;
+    font-size: 30px;
+
+}
+
+input,
+select {
+
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+
+}
+
+.side1 {
+    grid-column: 1 / span 2;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    box-shadow: 2px 2px black;
+    transition: 0.3s ease-in;
+}
+
+
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 1px solid red;
+    transition: 0.3s ease-out;
+}
+
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    margin-top: 5px;
+    font-size: 13px;
+}
